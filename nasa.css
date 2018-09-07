@@ -1,6 +1,10 @@
 body {
     display: block;
     margin: 8px;
+    background-color: black;
+}
+div {
+    display: block;
 }
 
 body:focus {
@@ -62,6 +66,16 @@ li a {
 #logo {
   float: left;
 }
+#imgroundecorners {
+  border-radius: 5%;
+}
 .menu1{
   font-size: 50px;
+}
+.div2pic /* denna clearar och lägger den under förra lagret, Tar upp ett helt lager*/
+{
+  padding-left: 5px;
+    border: 1px solid red;
+    height: auto;
+    clear: left;
 }
