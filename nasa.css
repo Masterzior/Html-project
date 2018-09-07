@@ -12,6 +12,9 @@ body:focus {
 }
 img {
     display: inline-block;
+	max-width: 100%;
+	max-height: 100%;
+	
 }
 ul {
     list-style-type: none;
@@ -34,7 +37,7 @@ li a {
 {
     float: left;
     width: auto;
-    height: auto
+    height: auto;
     margin: 10px;
     border: 3px solid #73AD21;
 }
@@ -48,7 +51,7 @@ li a {
 .div3 {
     float: right;
     width: auto;
-    height: auto
+    height: auto;
     margin: 10px;
     border: 3px solid #73AD21;
 }
@@ -87,9 +90,12 @@ li a {
 }
 .centerimagecontainer {
     text-align:center;
-    border:3px solid coral;
+    border:3px solid blue;
 }
 .autoimage {
   max-width: 100%;
   max-height: 100%;
+}
+#NasaEvents{
+	color: red;
 }
