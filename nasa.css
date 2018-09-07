@@ -1,8 +1,13 @@
 body {
-  background-color: grey;
+    display: block;
+    margin: 8px;
+}
+
+body:focus {
+    outline: none;
 }
 img {
-  display: inline-block;
+    display: inline-block;
 }
 ul {
     list-style-type: none;
@@ -10,6 +15,7 @@ ul {
     padding: 0;
     overflow: hidden;
 }
+
 li {
     float: left;
 }
@@ -19,35 +25,43 @@ li a {
     padding: 8px;
     background-color: #dddddd;
 }
-
-/* a  {
-    /* border-right: :border: 1px solid #555; */
-
-} */
-div {
-    display: block;
-    /* position: relative;
-    left: 30px; */
-  }
-  #div1 {
-    font-style: oblique;
-  }
-
- #BildDiv{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/* */
+.div1 /* Denna tar upp så mycket plats den behöver*/
+{
     float: left;
+    width: auto;
+    height: auto
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
 
+.div2 /* denna clearar och lägger den under förra lagret, Tar upp ett helt lager*/
+{
+    border: 1px solid red;
+    height: auto;
+    clear: left;
+}
+.div3 {
+    float: right;
+    width: auto;
+    height: auto
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+.wrapper{
+  text-align: center;
+  /* background-color: green; */
+  size: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clearfix {
+    overflow: auto;
+    border: 3px solid blue;
 }
 #logo {
-    float: left
+  float: left;
 }
-/* #navdiv{
-  float:left;
-  position: relative;
-  left:
-} */
-/* #logo{
-  display: block;
-} */
+.menu1{
+  font-size: 50px;
+}
