@@ -74,8 +74,14 @@ li a {
 }
 .div2pic /* denna clearar och lägger den under förra lagret, Tar upp ett helt lager*/
 {
-  padding-left: 5px;
-    border: 1px solid red;
+    padding-left: 5px;
+    border: 3px solid red;
     height: auto;
     clear: left;
+}
+.center {
+    margin: auto;
+    width: 80%;
+    border: 3px solid grey;
+    padding: 10px;
 }
