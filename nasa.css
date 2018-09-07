@@ -1,0 +1,28 @@
+body {
+  background-color: grey;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    width: : 200px;
+    display: block;
+    background-color: #dddddd;
+    /* border: 1px solid #555; */
+}
+li{
+    display: inline;
+}
+
+a  {
+    /* border-right: :border: 1px solid #555; */
+
+}
+div {
+    display: block;
+    position: relative;
+    left: 30px;
+  }
+  #div1 {
+    font-style: oblique;
+  }
