@@ -2,6 +2,7 @@ body {
     display: block;
     margin: 8px;
     background-color: black;
+    color: white;
 }
 div {
     display: block;
@@ -14,13 +15,21 @@ img {
     display: inline-block;
 	max-width: 100%;
 	max-height: 100%;
-	
+
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+.QuarterPage{
+  float: left;
+  width: 400px;
+  height: auto;
+  max-width: 25%;
+  margin: 10px;
+  border: 3px solid #73AD21;
 }
 
 li {
@@ -45,9 +54,10 @@ li a {
 .div2 /* denna clearar och lägger den under förra lagret, Tar upp ett helt lager*/
 {
     border: 1px solid red;
-    height: auto;
+    height: 300px;
     clear: left;
 }
+
 .div3 {
     float: right;
     width: auto;
@@ -81,6 +91,9 @@ li a {
     border: 3px solid red;
     height: auto;
     clear: left;
+}
+.textbox{
+  size: auto;
 }
 .center {
     margin: auto;
