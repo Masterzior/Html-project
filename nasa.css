@@ -22,6 +22,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: Arial, Helvetica, serif;
 }
 .QuarterPage{
   float: left;
@@ -37,6 +38,8 @@ li {
 }
 
 li a {
+
+
     display: block;
     padding: 8px;
     background-color: #dddddd;
@@ -118,6 +121,22 @@ li a {
 .flex-center {
   display: flex;
   justify-content: center;
+
+
+}
+#div4{
+  padding-left: 100px;
+}
+.flex-container{
+  display: flex;
+}
+.flex-rows{
+  display: flex;
+  flex-direction: column;
+}
+.flex-center > div{
+  max-width: 25%;
+  max-height: 100%;
 }
 .textimagesize {
   height: 244px;
