@@ -112,3 +112,15 @@ li a {
 #NasaEvents{
 	color: red;
 }
+.flex-container {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.textimagesize {
+  height: 244px;
+  width: 273px;
+  text-align: center;
+}
