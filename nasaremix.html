@@ -23,6 +23,8 @@
               <li><a href="#Downloads">Downloads</a></li>
               <li><a href="#About">About</a></li>
               <li><a href="#NASA Audiences">NASA Audiences</a></li>
+              <li><input id="Searchbar" type="text" placeholder="Search.."></li>
+
 
 
             </ul>
@@ -50,45 +52,75 @@
     </div1>
 
 
-    <div class="div2pic">
-		<div class="centerimagecontainer">
-		  <img id="imgroundecorners"src="CrewLands.png" alt="google.com" />
+    <div>
+     <script>
+       var i=0;
+       var images=[];
+       var time=30000;
 
-		</div>
-    </div>
-    <div class="flex-center" id="test22">
+       images[0]='Slider1.png';
+       images[1]='Slider2.png';
+       images[2]='Slider3.png';
+        function changeImg(){
+         document.slide.src=images[i];
+         if(i<images.length-1)
+         {
+           i++;
+         }
+         else
+         {
+           i=0;
+         }
+         setTimeout("changeImg()",time);
+       }
+       window.onload=changeImg;
+
+     </script>
+     <img name="slide" width="1920" height="373>"
+
+  </div>
+
+    <div class="flex-center" id="MiddleRow">
         <div id="NasaEvents">
-          <h2 id="toprow">
+          <h2 id="NasaEventsHeader">
             Nasa Events
           </h2>
 
           <p id="textfieldcenter">
 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis sodales vestibulum. Fusce aliquam tempus ultrices. Donec vulputate libero eu urna pellentesque, consequat vehicula arcu ornare. Nam interdum suscipit enim, sed rutrum augue ultricies nec. Curabitur ultrices commodo mi non fermentum. Sed volutpat dapibus dolor, at pellentesque mi ullamcorper id. Donec consectetur odio sit amet ornare dictum. Proin id velit blandit, placerat odio interdum, imperdiet ante.
+
+
+
           </p>
+<!-- Hamnar i slidern av någon anledning!?!?!?-->
+            <div id="NasaEventsFooter"><p>Calendar     Launches and Landings</p></div>
+<!------------------------------------------------------------->
+
+
 
         </div>
+        <div> <img src="Expedition48.png" alt="Image showing worldrecord setting astronaut." /> </div>
+        <div> <img src="Rocket1.jpg" alt="Image of Falcon Heavy rocket launching." /> </div>
+        <div id="Asteroidtxt">
+          <h2 id="AsteroidtxtHeader">
+            NASA to Launch First U.S. Asteroid Sample Return Mission
+          </h2>
+          <p id="textfieldcenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis sodales vestibulum. Fusce aliquam tempus ultrices. Donec vulputate libero eu urna pellentesque, consequat vehicula arcu ornare. Nam interdum suscipit enim, sed rutrum augue ultricies nec. Curabitur ultrices commodo mi non fermentum. Sed volutpat dapibus dolor, at pellentesque mi ullamcorper id. Donec consectetur odio sit amet ornare dictum. Proin id velit blandit, placerat odio interdum, imperdiet ante.</p></div>
+      </div>
+      <div class="flex-center" id="LastRow">
+        <div><img src="Video.png" alt="Videoplayer." /></div>
+        <div><img id="WideImage" src="Oceans.jpg" alt="Image displaying oceans on other planets." /></div>
         <div>
-          <img id="imgroundecorners"src="Expidition48.png" alt="google.com" />
+          <a class="twitter-timeline" data-height="300" href="https://twitter.com/NASA?ref_src=twsrc%5Etfw">Tweets by NASA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
-        <div class="">
 
-          <img id="imgroundecorners"src="Rocket.png" alt="google.com" />
-        </div>
-        <div class="">
-
-          <img id="imgroundecorners"src="AsteroidText.png" alt="google.com" />
-        </div>
       </div>
 
-    <div class="div2pic">
 
-      <div class="centerimagecontainer">
-      <img id="imgroundecorners"src="Video.png" alt="google.com" />
-      <img id="imgroundecorners"src="Oceans.png" alt="google.com" />
-      <img id="imgroundecorners"src="tweets.png" alt="google.com" />
-    </div>
-  </div>
+
+
+
 </div>
   </body>
 </html>
