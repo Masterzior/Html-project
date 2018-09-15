@@ -141,6 +141,20 @@ li a:hover{
   bottom: 0;
   top: 100;
 }
+#OtherNews div{
+  display: none;
+  display: block;
+
+}
+#OtherNews:hover{
+  background-color: white;
+  display: block;
+  border:1px solid #000;
+
+}
+#OtherNews img:hover{
+  hidden: 1;
+}
 
 .flex-container {
   display: flex;
