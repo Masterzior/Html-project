@@ -129,6 +129,7 @@ li a:hover{
   padding: 5px;
   padding-bottom: 0px;
   padding-top: 0px;
+  width: 25%;
 }
 #NasaEventsHeader{
   text-align: left;
@@ -141,21 +142,6 @@ li a:hover{
   bottom: 0;
   top: 100;
 }
-#OtherNews div{
-  display: none;
-  display: block;
-
-}
-#OtherNews:hover{
-  background-color: white;
-  display: block;
-  border:1px solid #000;
-
-}
-#OtherNews img:hover{
-  hidden: 1;
-}
-
 .flex-container {
   display: flex;
 }
@@ -171,7 +157,7 @@ li a:hover{
 
  }
  #MiddleRow div{
-   width: 25%;
+   /* width: 25%; */
  }
 
  .flex-center img{
@@ -186,6 +172,7 @@ li a:hover{
   padding: 8px;
   padding-bottom: 0px;
   padding-top: 0px;
+  width: 25%;
 
 }
 #AsteroidtxtHeader{
@@ -208,4 +195,34 @@ li a:hover{
 #LastRow div{
   max-width: 50%;
   min-width: 25%;
+}
+.overlay {
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+#OtherNews:hover .overlay {
+  opacity: 1;
+}
+.overlaytext {
+  color: Black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#OtherNews {
+  position: relative;
+  width: 25%;
 }
