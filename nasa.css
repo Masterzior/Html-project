@@ -136,8 +136,9 @@ li a:hover{
   border-bottom: 1px solid white;
 }
 #NasaEventsFooter{
+  text-align: center;
+  display: block;
   border-top: 1px solid white;
-  position: absolute;
   justify-content: flex-end;
   bottom: 0;
   top: 100;
@@ -225,4 +226,7 @@ li a:hover{
 #OtherNews {
   position: relative;
   width: 25%;
+}
+#textfieldcenter {
+  font-style: normal;
 }
